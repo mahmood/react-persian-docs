@@ -127,10 +127,10 @@ class CodeEditor extends Component {
               css={{
                 flex: '0 0 70%',
                 overflow: 'hidden',
-                borderRadius: '10px 0 0 10px',
+                borderRadius: '0 10px 10px 0',
 
                 [media.lessThan('medium')]: {
-                  borderRadius: '10px 10px 0 0',
+                  borderRadius: '0 10px 10px 02',
                 },
               }}>
               <div
@@ -177,6 +177,7 @@ class CodeEditor extends Component {
                   '& pre.prism-code[contenteditable]': {
                     outline: 0,
                     overflow: 'auto',
+                    direction: 'ltr',
                     marginRight: '0 !important',
                     marginBottom: '0 !important',
                   },
@@ -191,12 +192,12 @@ class CodeEditor extends Component {
                   flex: '0 0 30%',
                   overflow: 'hidden',
                   border: `1px solid ${colors.error}`,
-                  borderRadius: '0 10px 10px 0',
+                  borderRadius: '10px 0 0 10px',
                   fontSize: 12,
                   lineHeight: 1.5,
 
                   [media.lessThan('medium')]: {
-                    borderRadius: '0 0 10px 10px',
+                    borderRadius: '10px 0 0 10px',
                   },
                 }}>
                 <div
@@ -229,10 +230,10 @@ class CodeEditor extends Component {
                   flex: '0 0 30%',
                   overflow: 'hidden',
                   border: `1px solid ${colors.divider}`,
-                  borderRadius: '0 10px 10px 0',
+                  borderRadius: '10px 0 0 10px',
 
                   [media.lessThan('medium')]: {
-                    borderRadius: '0 0 10px 10px',
+                    borderRadius: '10px 0 0 10px',
                   },
                 }}>
                 <div
