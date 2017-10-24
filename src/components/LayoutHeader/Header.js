@@ -87,7 +87,7 @@ const Header = ({location}) => (
                 border: 0,
               },
             }}>
-            React
+            ری‌اکت
           </span>
         </Link>
 
@@ -116,22 +116,22 @@ const Header = ({location}) => (
           }}>
           <HeaderLink
             isActive={location.pathname.includes('/docs/')}
-            title="Docs"
+            title="مستندات"
             to="/docs/hello-world.html"
           />
           <HeaderLink
             isActive={location.pathname.includes('/tutorial/')}
-            title="Tutorial"
+            title="آموزش"
             to="/tutorial/tutorial.html"
           />
           <HeaderLink
             isActive={location.pathname.includes('/community/')}
-            title="Community"
+            title="جامعه کاربری"
             to="/community/support.html"
           />
           <HeaderLink
             isActive={location.pathname.includes('/blog')}
-            title="Blog"
+            title="وبلاگ"
             to="/blog/"
           />
         </nav>
@@ -188,7 +188,7 @@ const Header = ({location}) => (
             href="https://github.com/facebook/react/"
             target="_blank"
             rel="noopener">
-            GitHub
+            گیت‌هاب
             <ExternalLinkSvg
               cssProps={{
                 marginLeft: 5,

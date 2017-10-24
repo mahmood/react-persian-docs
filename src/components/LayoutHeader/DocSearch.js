@@ -64,6 +64,7 @@ class DocSearch extends Component {
             color: colors.white,
             fontSize: 18,
             fontWeight: 300,
+            textAlign: 'right',
             fontFamily: 'inherit',
             position: 'relative',
             padding: '5px 5px 5px 29px',
@@ -99,8 +100,8 @@ class DocSearch extends Component {
           }}
           id="algolia-doc-search"
           type="search"
-          placeholder="Search docs"
-          aria-label="Search docs"
+          placeholder="جستجو در مستندات"
+          aria-label="جستجو در مستندات"
         />
       </form>
     ) : null;
