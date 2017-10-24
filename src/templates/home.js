@@ -92,7 +92,7 @@ class Home extends Component {
                     fontSize: 60,
                   },
                 }}>
-                React
+                ری‌اکت
               </h1>
               <p
                 css={{
@@ -114,7 +114,7 @@ class Home extends Component {
                     fontSize: 30,
                   },
                 }}>
-                A JavaScript library for building user interfaces
+                یک لایبرری جاوااسکریپت برای ساخت رابط کاربری
               </p>
               <Flex
                 valign="center"
@@ -127,12 +127,12 @@ class Home extends Component {
                 }}>
                 <CtaItem>
                   <ButtonLink to="/docs/hello-world.html" type="primary">
-                    Get Started
+                    شروع کن
                   </ButtonLink>
                 </CtaItem>
                 <CtaItem>
                   <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                    Take the Tutorial
+                    آموزش ببینید
                   </ButtonLink>
                 </CtaItem>
               </Flex>
@@ -203,7 +203,7 @@ const CtaItem = ({children, primary = false}) => (
       },
 
       '&:first-child': {
-        textAlign: 'right',
+        textAlign: 'left',
         paddingRight: 15,
       },
 
