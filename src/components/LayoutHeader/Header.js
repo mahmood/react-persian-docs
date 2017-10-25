@@ -67,7 +67,7 @@ const Header = ({location}) => (
           <span
             css={{
               color: 'inherit',
-              marginLeft: 10,
+              marginRight: 10,
               fontWeight: 700,
               fontSize: 20,
               lineHeight: '20px',
