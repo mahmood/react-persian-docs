@@ -1,64 +1,64 @@
-- title: Quick Start
+- title: شروع سریع
   items:
     - id: installation
-      title: Installation
+      title: نصب و راه‌اندازی
     - id: hello-world
-      title: Hello World
+      title: سلام دنیا
     - id: introducing-jsx
-      title: Introducing JSX
+      title: مقدمه ای بر JSX
     - id: rendering-elements
-      title: Rendering Elements
+      title: رندر کردن المنت ها
     - id: components-and-props
-      title: Components and Props
+      title: کامپوننت ها و props
     - id: state-and-lifecycle
-      title: State and Lifecycle
+      title: state و چرخه زندگی کامپوننت
     - id: handling-events
-      title: Handling Events
+      title: رسیدگی به رویداد ها
     - id: conditional-rendering
-      title: Conditional Rendering
+      title: رندرینگ شرطی
     - id: lists-and-keys
-      title: Lists and Keys
+      title: لیست ها و کلید ها
     - id: forms
-      title: Forms
+      title: فرم ها
     - id: lifting-state-up
       title: Lifting State Up
     - id: composition-vs-inheritance
-      title: Composition vs Inheritance
+      title: کامپوزیشن در برابر ارث بری
     - id: thinking-in-react
-      title: Thinking In React
-- title: Advanced Guides
+      title: فکر کردن به سبک ری‌اکت
+- title: راهنما پیشرفته
   items:
     - id: jsx-in-depth
-      title: JSX In Depth
+      title: JSX عمیق
     - id: typechecking-with-proptypes
-      title: Typechecking With PropTypes
+      title: تایپ چکینک به وسیله PropTypes
     - id: refs-and-the-dom
-      title: Refs and the DOM
+      title: ref ها و dom
     - id: uncontrolled-components
-      title: Uncontrolled Components
+      title: کامپوننت کنترل نشده
     - id: optimizing-performance
-      title: Optimizing Performance
+      title: بهینه سازی پرفورمنس
     - id: react-without-es6
-      title: React Without ES6
+      title: ری‌اکت بدون ES6
     - id: react-without-jsx
-      title: React Without JSX
+      title: ری اکت بدون JSX
     - id: reconciliation
       title: Reconciliation
     - id: context
       title: Context
     - id: portals
-      title: Portals
+      title: پرتال
     - id: error-boundaries
       title: Error Boundaries
     - id: web-components
-      title: Web Components
+      title: وب کامپوننت
     - id: higher-order-components
-      title: Higher-Order Components
+      title: Higher-Order کامپوننت 
     - id: integrating-with-other-libraries
-      title: Integrating with Other Libraries
+      title: هماهنگی با دیگر لایبرری ها
     - id: accessibility
-      title: Accessibility
-- title: Reference
+      title: دسترسی پذیری
+- title: منابع
   items:
     - id: react-api
       title: React
@@ -86,10 +86,10 @@
 - title: Contributing
   items:
   - id: how-to-contribute
-    title: How to Contribute
+    title: چگونه مشارکت کنیم
   - id: codebase-overview
-    title: Codebase Overview
+    title: نمای کلی کد
   - id: implementation-notes
-    title: Implementation Notes
+    title: نوشته های پیاده سازی
   - id: design-principles
-    title: Design Principles
+    title: اصول طراحی
