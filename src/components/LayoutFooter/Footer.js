@@ -60,18 +60,18 @@ const Footer = ({layoutHasSidebar = false}) => (
             },
           }}>
           <FooterNav layoutHasSidebar={layoutHasSidebar}>
-            <MetaTitle onDark={true}>Docs</MetaTitle>
-            <FooterLink to="/docs/hello-world.html">Quick Start</FooterLink>
+            <MetaTitle onDark={true}>مستندات</MetaTitle>
+            <FooterLink to="/docs/hello-world.html">شروع سریع</FooterLink>
             <FooterLink to="/docs/thinking-in-react.html">
-              Thinking in React
+              فکرکردن به سبک ری‌اکت
             </FooterLink>
-            <FooterLink to="/tutorial/tutorial.html">Tutorial</FooterLink>
+            <FooterLink to="/tutorial/tutorial.html">آموزش</FooterLink>
             <FooterLink to="/docs/jsx-in-depth.html">
-              Advanced Guides
+              راهنما پیشرفته
             </FooterLink>
           </FooterNav>
           <FooterNav layoutHasSidebar={layoutHasSidebar}>
-            <MetaTitle onDark={true}>Community</MetaTitle>
+            <MetaTitle onDark={true}>جامعه کاربری</MetaTitle>
             <ExternalFooterLink
               href="http://stackoverflow.com/questions/tagged/reactjs"
               target="_blank"
@@ -82,7 +82,7 @@ const Footer = ({layoutHasSidebar = false}) => (
               href="https://discuss.reactjs.org"
               target="_blank"
               rel="noopener">
-              Discussion Forum
+              فروم
             </ExternalFooterLink>
             <ExternalFooterLink
               href="https://discord.gg/0ZcbPKXt5bZjGY5n"
@@ -94,51 +94,51 @@ const Footer = ({layoutHasSidebar = false}) => (
               href="https://www.facebook.com/react"
               target="_blank"
               rel="noopener">
-              Facebook
+              فیسبوک
             </ExternalFooterLink>
             <ExternalFooterLink
               href="https://twitter.com/reactjs"
               target="_blank"
               rel="noopener">
-              Twitter
+              توییتر
             </ExternalFooterLink>
           </FooterNav>
           <FooterNav layoutHasSidebar={layoutHasSidebar}>
-            <MetaTitle onDark={true}>Resources</MetaTitle>
+            <MetaTitle onDark={true}>منابع</MetaTitle>
             <FooterLink to="/community/conferences.html">
-              Conferences
+              کنفرانس ها
             </FooterLink>
-            <FooterLink to="/community/videos.html">Videos</FooterLink>
+            <FooterLink to="/community/videos.html">ویدیوها</FooterLink>
             <ExternalFooterLink
               href="https://github.com/facebook/react/wiki/Examples"
               target="_blank"
               rel="noopener">
-              Examples
+              مثال ها
             </ExternalFooterLink>
             <ExternalFooterLink
               href="https://github.com/facebook/react/wiki/Complementary-Tools"
               target="_blank"
               rel="noopener">
-              Complementary Tools
+              ابزار های مکمل
             </ExternalFooterLink>
           </FooterNav>
           <FooterNav layoutHasSidebar={layoutHasSidebar}>
-            <MetaTitle onDark={true}>More</MetaTitle>
-            <FooterLink to="/blog/">Blog</FooterLink>
+            <MetaTitle onDark={true}>بیشتر</MetaTitle>
+            <FooterLink to="/blog/">وبلاگ</FooterLink>
             <ExternalFooterLink
               href="https://github.com/facebook/react"
               target="_blank"
               rel="noopener">
-              GitHub
+              گیت هاب
             </ExternalFooterLink>
             <ExternalFooterLink
               href="http://facebook.github.io/react-native/"
               target="_blank"
               rel="noopener">
-              React Native
+              ری‌اکت نیتو
             </ExternalFooterLink>
             <FooterLink to="/acknowledgements.html">
-              Acknowledgements
+              سپاس گذاری ها
             </FooterLink>
           </FooterNav>
         </div>
