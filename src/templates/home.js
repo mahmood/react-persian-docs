@@ -158,12 +158,12 @@ class Home extends Component {
             <Flex valign="center">
               <CtaItem>
                 <ButtonLink to="/docs/hello-world.html" type="primary">
-                  Get Started
+                  شروع کن
                 </ButtonLink>
               </CtaItem>
               <CtaItem>
                 <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                  Take the Tutorial
+                  آموزش ببینید
                 </ButtonLink>
               </CtaItem>
             </Flex>

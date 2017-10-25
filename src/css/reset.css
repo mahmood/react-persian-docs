@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.woff")
+}
+
 html {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont,
@@ -13,6 +18,7 @@ html {
 body {
   overflow-x: hidden;
   position: relative;
+  font-family: "Vazir";
 }
 
 * {
